@@ -1,0 +1,281 @@
+html {
+    font-family: 'Helvetica Neue';
+}
+
+body {
+    margin: 0;
+}
+
+header {
+    background: rgb(175, 220, 225);
+    text-align: center;
+    height: max-content;
+    padding: 1em;
+}
+
+section {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    height: 100vh;
+}
+
+article {
+    flex: 1;
+    border-width: 1px;
+    border-style: solid;
+    height: 115vh;
+    padding: 1em;
+}
+
+article:nth-child(2) {
+    flex: 2;
+}
+
+#bottomLeft{
+    height: 100vh;
+}
+
+#tablero {
+    border-style: solid;
+    border-color: black;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    grid-template-rows: 2fr 8fr;
+    height: 115vh;
+    gap: 5px;
+    background-color: chocolate;
+}
+
+#tablero div {
+    border-style: solid;
+    margin: 10px;
+    padding: 5px;
+    border: 0;
+}
+
+
+
+.bloque{
+    height: 10%;
+    align-items: center;
+    grid-template-columns: 1fr 1fr;
+    display: grid;
+    border: 0;
+    margin-bottom: 10px;
+}
+
+.fila1{
+    justify-content: center;
+    align-items: center;
+    flex-wrap: nowrap;
+    display: flex;
+    border: 0;
+}
+.fila{
+    height: 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: nowrap;
+    border: 0;
+}
+
+#circulo1{
+    display: flex;
+    background-color: blue;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    border-color: 3px gray;
+    text-align: center;
+    padding-top: 10px;
+}
+#circulo2{
+    display: flex;
+    background-color: green;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    border-color: 3px gray;
+    text-align: center;
+    padding-top: 10px;
+}
+#circulo3{
+    display: flex;
+    background-color: yellow;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    border-color: 3px gray;
+    text-align: center;
+    padding-top: 10px;
+}
+#circulo4{
+    display: flex;
+    background-color: purple;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    border-color: 3px gray;
+    text-align: center;
+    padding-top: 10px;
+}
+#circulo5{
+    display: flex;
+    background-color: blue;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    border-color: 3px gray;
+    text-align: center;
+    padding-top: 10px;
+}
+#circulo6{
+    display: flex;
+    background-color: tomato;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    border-color: 3px gray;
+    text-align: center;
+    padding-top: 10px;
+}
+#circulo7{
+    display: flex;
+    background-color:green;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    border-color: 3px gray;
+    text-align: center;
+    padding-top: 10px;
+}
+#circulo8{
+    display: flex;
+    background-color: purple;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    border-color: 3px gray;
+    text-align: center;
+    padding-top: 10px;
+}
+.circulo1{
+    display: flex;
+    background-color: #C4C4C6;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    border-color: 3px gray;
+    text-align: center;
+    padding-top: 10px;  
+}
+.circulo2{
+    display: flex;
+    background-color: #C4C4C6;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    border-color: 3px gray;
+    text-align: center;
+    padding-top: 10px;  
+}
+
+.circulo3{
+    display: flex;
+    background-color: #C4C4C6;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    border-color: 3px gray;
+    text-align: center;
+    padding-top: 10px;  
+}
+
+.circulo4{
+    display: flex;
+    background-color: #C4C4C6;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    border-color: 3px gray;
+    text-align: center;
+    padding-top: 10px;  
+}
+.circulo5{
+    display: flex;
+    background-color: #C4C4C6;
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    border-color: 3px gray;
+   
+    padding-top: 10px;  
+}
+.circulo6{
+    display: flex;
+    background-color: #C4C4C6;
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    border-color: 3px gray;
+ 
+    padding-top: 10px;  
+}
+.circulo7{
+    display: flex;
+    background-color: #C4C4C6;
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    border-color: 3px gray;
+    
+    padding-top: 10px;  
+}
+.circulo8{
+    display: flex;
+    background-color: #C4C4C6;
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    border-color: 3px gray;
+    
+    padding-top: 10px;  
+}
+.circulo9{
+    display: flex;
+    background-color: black;
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    border-color: 3px gray;
+    padding-top: 10px;  
+}
+.circulo10{
+    display: flex;
+    background-color: gray;
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    border-color: 3px gray;
+    padding-top: 10px;  
+}
+.circulo11{
+    display: flex;
+    background-color: white;
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    border-color: 3px gray;
+    padding-top: 10px;  
+}
+.circulo12{
+    display: flex;
+    background-color: black;
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    border-color: 3px gray;
+    padding-top: 10px;  
+}
